@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f7fb; color: #2d3748; line-height: 1.6; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+header { background: #2b6cb0; color: #fff; padding: 32px 24px; text-align: center; }
+header h1 { font-size: 1.8em; margin-bottom: 8px; }
+nav { margin-top: 16px; }
+nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+h2 { margin: 24px 0 12px; color: #2b6cb0; }
+.card { background: #fff; border-radius: 14px; padding: 22px; margin-bottom: 16px; box-shadow: 0 3px 8px rgba(0,0,0,0.08); }
+.card a { display: block; font-size: 1.15em; font-weight: bold; color: #2b6cb0; text-decoration: none; margin-bottom: 6px; }
+.card a:hover { text-decoration: underline; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.grid .card { margin-bottom: 0; }
+ul.topics { list-style: none; }
+ul.topics li { margin-bottom: 8px; }
+ul.topics a { color: #2b6cb0; text-decoration: none; font-weight: bold; }
+ul.topics a:hover { text-decoration: underline; }
+.note { background: #fffbea; border-left: 4px solid #ecc94b; padding: 10px 14px; border-radius: 6px; margin: 14px 0; font-size: 0.95em; }
+footer { text-align: center; padding: 20px; color: #718096; font-size: 0.9em; }
