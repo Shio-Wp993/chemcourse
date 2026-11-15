@@ -1,0 +1,116 @@
+/* ═══════════════════════════════════════════════════════
+   ФАЙЛ ОФОРМЛЕНИЯ САЙТА
+   ✍️ Здесь можно менять цвета, шрифты и размеры.
+   Менять что-то не обязательно — сайт уже красиво оформлен.
+   Самые безопасные изменения: значения рядом со словом
+   «цвет» в комментариях.
+═══════════════════════════════════════════════════════ */
+
+/* Основной шрифт и цвет фона всего сайта */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  background: #f7f9fb;        /* цвет фона страницы */
+  color: #22303c;             /* основной цвет текста */
+  line-height: 1.6;
+}
+
+/* Верхняя полоса с названием сайта */
+.topbar {
+  background: #2e6f5e;        /* цвет шапки */
+  padding: 18px 24px;
+}
+.logo {
+  color: #ffffff;             /* цвет названия сайта */
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Общий контейнер для содержимого */
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px 20px 40px;
+}
+
+/* Блок 1. Описание пользы сайта (верх) */
+.hero {
+  background: #e6f2ee;
+  border: 1px solid #cfe4dc;
+  border-radius: 14px;
+  padding: 28px 26px;
+  margin-bottom: 28px;
+}
+.hero-text {
+  font-size: 19px;
+  margin: 0;
+}
+
+/* Все обычные блоки (инструкция, списки, о нас) */
+.block {
+  background: #ffffff;
+  border: 1px solid #e3e8ec;
+  border-radius: 14px;
+  padding: 24px 26px;
+  margin-bottom: 24px;
+}
+h2 {
+  margin-top: 0;
+  color: #2e6f5e;             /* цвет заголовков блоков */
+}
+
+/* Блок 2. Инструкция — нумерованный список */
+.howto li {
+  margin-bottom: 8px;
+}
+
+/* Блоки 3 и 4. Списки разделов-ссылок */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  margin-bottom: 10px;
+}
+.menu a {
+  display: block;
+  background: #eef4f2;
+  border: 1px solid #d7e5e0;
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: #2e6f5e;             /* цвет текста ссылок-разделов */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.15s;
+}
+.menu a:hover {
+  background: #dcebe6;        /* цвет ссылки при наведении мыши */
+}
+
+/* Блок 5. «О нас» — три карточки рядом */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+.about-card {
+  background: #f4f7f6;
+  border: 1px solid #dfe8e5;
+  border-radius: 10px;
+  padding: 16px;
+}
+.about-card h3 {
+  margin-top: 0;
+  color: #2e6f5e;
+}
+
+/* Подвал сайта */
+footer {
+  text-align: center;
+  color: #6b7a85;
+  font-size: 14px;
+  padding: 18px;
+}
