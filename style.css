@@ -145,7 +145,8 @@ main {
 }
 
 /* На узких экранах украшения прячем, чтобы не мешали */
-@media (max-width: 1100px) {
+@media (max-width: 960px) {
   body::before,
   body::after { display: none; }
 }
+
