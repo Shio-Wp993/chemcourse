@@ -1,78 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Игра на грани мира</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background: #050510; /* почти чёрный, но не совсем */
-        color: #fff;
-        font-family: Arial, sans-serif;
-      }
-      .hero {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-      }
-      h1 {
-        font-size: 3rem;
-        line-height: 1.1;
-        margin-bottom: 16px;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-      }
-      .subtitle {
-        font-size: 1.2rem;
-        color: #aaa;
-        max-width: 600px;
-        margin-bottom: 40px;
-      }
-      .choice-box {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        width: 100%;
-        max-width: 500px;
-      }
-      button {
-        padding: 14px 20px;
-        border: none;
-        cursor: pointer;
-        font-size: 1rem;
-        transition: 0.3s;
-      }
-      .destroy {
-        background: #a00;
-        color: white;
-      }
-      .save {
-        background: #0a0;
-        color: white;
-      }
-      .destroy:hover { background: #d00; }
-      .save:hover { background: #0d0; }
-    </style>
-  </head>
-  <body>
-    <div class="hero">
-      <h1>Игра на грани</h1>
-      <p class="subtitle">
-        Мир стал ареной. Каждый ход приближает конец. Но в последнем выборе рождается надежда.
-      </p>
-      <div class="choice-box">
-        <button class="destroy" onclick="alert('Вы выбрали: уничтожить всё. Мир исчезает.')">
-          Уничтожить мир
-        </button>
-        <button class="save" onclick="alert('Вы выбрали: спасти мир. Игра исчезает. Надежда остаётся.')">
-          Спасти мир
-        </button>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Егэ — Chem-course</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style-dopolnenie.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="index.html" class="logo">✳️ Chem-course</a>
+</header>
+  <main>
+    <a class="back-link" href="index.html">← На главную</a>
+<main>
+  <section class="topic-header">
+  <h2>Егэ</h2>
+  </section>
+  
+<section class="block">
+  <p>Всего в экзамене 34 задания</p>
+</section>
+
+  <footer>
+  © Chem-course · Сделано с любовью к химии
+</footer>
+
+</body>
 </html>
